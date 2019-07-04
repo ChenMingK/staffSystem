@@ -1,0 +1,432 @@
+insert into department values(1,'人事');
+
+insert into department values(2,'研发');
+
+insert into department values(3,'客服');
+
+insert into department values(4,'售后');
+
+insert into department values(5,'运维');
+
+insert into department values(6,'网络');
+
+insert into department values(7,'宣传');
+
+insert into department values(8,'管理');
+
+insert into department values(9,'清洁');
+
+insert into department values(10,'保安');
+
+
+
+
+insert into information values(1145110301,'老王','男','1987-10-18','450303198710180001','广西桂林','1231111111','天马学生公寓',3,28);
+
+insert into information values(1145111002,'小王','男','1989-11-08','420303198911080002','湖南长沙','1231111112','天马学生公寓',10,26);
+
+insert into information values(1145110203,'张三','男','1988-05-11','420303198805110003','湖南长沙','1231111113','天马学生公寓',2,27);
+
+insert into information values(1145110104,'李四','女','1993-04-20','420303199304200004','湖南长沙','1231111114','天马学生公寓',1,22);
+
+insert into information values(1145110405,'王五','男','1995-03-27','420203199503200005','湖北江夏','1231111115','天马学生公寓',4,20);
+
+insert into information values(1145110506,'李明','男','1987-11-16','450303198711160006','广西桂林','1231111116','天马学生公寓',5,28);
+
+insert into information values(1145110607,'王梅梅','女','1989-12-10','420303198912100007','湖南长沙','1231111117','天马学生公寓',6,26);
+
+insert into information values(1145110708,'刘恭','男','1988-06-13','420303198806130010','湖南长沙','1231111118','天马学生公寓',7,27);
+
+insert into information values(1145110809,'刘盈','女','1993-05-22','420303199305220011','湖南长沙','1231111119','天马学生公寓',8,22);
+
+insert into information values(1145110910,'刘弘','男','1995-03-15','420203199503150012','湖北江夏','1231111120','天马学生公寓',9,20);
+insert into information values(1145110311,'刘恒','男','1987-11-18','450303198711180013','广西桂林','1231111221','天马学生公寓',3,28);
+
+insert into information values(1145111012,'刘贺','男','1989-01-08','420303198901080014','湖南长沙','1231111222','天马学生公寓',10,26);
+
+insert into information values(1145110213,'刘庄','男','1988-06-11','420303198806110015','湖南长沙','1231111223','天马学生公寓',2,27);
+
+insert into information values(1145110114,'刘懿','女','1993-05-20','420303199305200016','湖南长沙','1231111224','天马学生公寓',1,22);
+
+insert into information values(1145110415,'刘隆','男','1995-04-27','420203199504270017','湖北江夏','1231111225','天马学生公寓',4,20);
+
+insert into information values(1145110516,'刘志','男','1987-12-16','450303198712160100','广西桂林','1231111226','天马学生公寓',5,28);
+
+insert into information values(1145110617,'刘保','女','1989-01-10','420303198901100101','湖南长沙','1231111227','天马学生公寓',6,26);
+
+insert into information values(1145110718,'刘宏','男','1988-07-13','420303198807130102','湖南长沙','1231111228','天马学生公寓',7,27);
+
+insert into information values(1145110819,'刘辩','女','1993-06-22','420303199306220103','湖南长沙','1231111229','天马学生公寓',8,22);
+
+insert into information values(1145110920,'刘炳','男','1995-04-15','420203199504150104','湖北江夏','1231113330','天马学生公寓',9,20);
+insert into information values(1145110321,'曹睿','男','1987-12-18','450303198712180105','广西桂林','1231113331','天马学生公寓',3,28);
+
+insert into information values(1145111022,'曹髦','男','1989-02-08','420303198902080106','湖南长沙','1231113332','天马学生公寓',10,26);
+
+insert into information values(1145110223,'曹奂','男','1988-07-11','420303198807110107','湖南长沙','1231113333','天马学生公寓',2,27);
+
+insert into information values(1145110124,'曹芳','女','1993-06-20','420303199306200110','湖南长沙','1231113334','天马学生公寓',1,22);
+
+insert into information values(1145110425,'孙亮','男','1995-05-27','420203199505270111','湖北江夏','1231113335','天马学生公寓',4,20);
+
+insert into information values(1145110526,'孙皓','男','1987-01-16','450303198701160112','广西桂林','1231113336','天马学生公寓',5,28);
+
+insert into information values(1145110627,'孙休','女','1989-02-10','420303198902100113','湖南长沙','1231113337','天马学生公寓',6,26);
+
+insert into information values(1145110728,'司马炎','男','1988-08-13','420303198808130114','湖南长沙','1231113338','天马学生公寓',7,27);
+
+insert into information values(1145110829,'司马炽','女','1993-07-22','420303199307220115','湖南长沙','1231113339','天马学生公寓',8,22);
+
+insert into information values(1145110930,'司马邺','男','1995-05-15','420203199505150116','湖北江夏','1231113340','天马学生公寓',9,20);
+insert into information values(1145110331,'李特','男','1987-01-18','450303198701180117','广西桂林','1231111441','天马学生公寓',3,28);
+
+insert into information values(1145111032,'刘渊','男','1989-03-08','420303198903081000','湖南长沙','1231111442','天马学生公寓',10,26);
+
+insert into information values(1145110233,'石勒','男','1988-08-11','420303198808111001','湖南长沙','1231111443','天马学生公寓',2,27);
+
+insert into information values(1145110134,'冉闵','女','1993-07-20','420303199307201002','湖南长沙','1231111444','天马学生公寓',1,22);
+
+insert into information values(1145110435,'张轨','男','1995-06-27','420203199506271003','湖北江夏','1231111445','天马学生公寓',4,20);
+
+insert into information values(1145110536,'李恂','男','1987-02-16','450303198702161004','广西桂林','1231111446','天马学生公寓',5,28);
+
+insert into information values(1145110637,'吕婆楼','女','1989-03-10','420303198903110051','湖南长沙','1231111447','天马学生公寓',6,26);
+
+insert into information values(1145110738,'段业','男','1988-09-13','420303198809131006','湖南长沙','1231111448','天马学生公寓',7,27);
+
+insert into information values(1145110839,'慕容俊','女','1993-08-22','420303199308221007','湖南长沙','1231111449','天马学生公寓',8,22);
+
+insert into information values(1145110940,'慕容麟','男','1995-06-15','420203199506151010','湖北江夏','1231111450','天马学生公寓',9,20);
+insert into information values(1145110341,'赫连昌','男','1987-02-18','450303198702181011','广西桂林','1231151151','天马学生公寓',3,28);
+
+insert into information values(1145111042,'苻健','男','1989-04-08','420303198904081012','湖南长沙','1231151152','天马学生公寓',10,26);
+
+insert into information values(1145110243,'姚兴','男','1988-09-11','420303198809111013','湖南长沙','1231151153','天马学生公寓',2,27);
+
+insert into information values(1145110144,'伏慕末','女','1993-08-20','420303199308201014','湖南长沙','1231151154','天马学生公寓',1,22);
+
+insert into information values(1145110445,'萧道成','男','1995-07-27','420203199507271015','湖北江夏','1231151155','天马学生公寓',4,20);
+
+insert into information values(1145110546,'陈伯宗','男','1987-03-16','450303198703161016','广西桂林','1231151156','天马学生公寓',5,28);
+
+insert into information values(1145110647,'高洋','女','1989-04-10','420303198904101017','湖南长沙','1231151157','天马学生公寓',6,26);
+
+insert into information values(1145110748,'杨浩','男','1988-10-13','420303198810131100','湖南长沙','1231151158','天马学生公寓',7,27);
+
+insert into information values(1145110849,'李豫','女','1993-09-22','420303199309221101','湖南长沙','1231151159','天马学生公寓',8,22);
+
+insert into information values(1145110950,'赵匡义','男','1995-07-15','420203199507151102','湖北江夏','1231151160','天马学生公寓',9,20);
+insert into information values(1145110351,'赵构','男','1987-03-18','450303198703181103','广西桂林','1231611161','天马学生公寓',3,28);
+
+insert into information values(1145111052,'李谅祚','男','1989-05-08','420303198905081104','湖南长沙','1231611162','天马学生公寓',10,26);
+
+insert into information values(1145110253,'朱允炆','男','1988-10-11','420303198810111105','湖南长沙','1231611163','天马学生公寓',2,27);
+
+insert into information values(1145110154,'朱祁钰','女','1993-09-20','420303199309201106','湖南长沙','1231611164','天马学生公寓',1,22);
+
+insert into information values(1145110455,'李自成','男','1995-08-27','420203199508271107','湖北江夏','1231611165','天马学生公寓',4,20);
+
+insert into information values(1145110556,'张献忠','男','1987-04-16','450303198704161110','广西桂林','1231611166','天马学生公寓',5,28);
+
+insert into information values(1145110657,'朱由崧','女','1989-05-10','420303198905101111','湖南长沙','1231611167','天马学生公寓',6,26);
+
+insert into information values(1145110758,'洪秀全','男','1988-11-13','420303198811131112','湖南长沙','1231611158','天马学生公寓',7,27);
+
+insert into information values(1145110859,'李秀珍','女','1993-10-22','420303199310221113','湖南长沙','1231611169','天马学生公寓',8,22);
+
+insert into information values(1145110960,'天贵福','男','1995-08-15','420203199508151114','湖北江夏','1231611170','天马学生公寓',9,20);
+
+
+
+insert into salary values('2019-5',1145110301,5000,1000,1000,1000,6000);
+
+insert into salary values('2019-5',1145111002,4000,1000,1000,1000,5000);
+
+insert into salary values('2019-5',1145110203,15000,1000,1000,1000,16000);
+
+insert into salary values('2019-5',1145110104,20000,1000,1000,1000,21000);
+
+insert into salary values('2019-5',1145110405,10000,1000,1000,1000,11000);
+
+insert into salary values('2019-5',1145110506,12000,1000,1000,1000,13000);
+
+insert into salary values('2019-5',1145110607,11000,1000,1000,1000,12000);
+
+insert into salary values('2019-5',1145110708,8000,1000,1000,1000,9000);
+
+insert into salary values('2019-5',1145110809,50000,10000,1000,1000,60000);
+
+insert into salary values('2019-5',1145110910,3500,1000,1000,1000,4500);
+
+insert into salary values('2019-5',1145110311,5000,1000,1000,1000,6000);
+
+insert into salary values('2019-5',1145111012,4000,1000,1000,1000,5000);
+
+insert into salary values('2019-5',1145110213,15000,1000,1000,1000,16000);
+
+insert into salary values('2019-5',1145110114,20000,1000,1000,1000,21000);
+
+insert into salary values('2019-5',1145110415,10000,1000,1000,1000,11000);
+
+insert into salary values('2019-5',1145110516,12000,1000,1000,1000,13000);
+
+insert into salary values('2019-5',1145110617,11000,1000,1000,1000,12000);
+
+insert into salary values('2019-5',1145110718,8000,1000,1000,1000,9000);
+
+insert into salary values('2019-5',1145110819,50000,10000,1000,1000,60000);
+
+insert into salary values('2019-5',1145110920,3500,1000,1000,1000,4500);
+
+insert into salary values('2019-5',1145110321,5000,1000,1000,1000,6000);
+
+insert into salary values('2019-5',1145111022,4000,1000,1000,1000,5000);
+
+insert into salary values('2019-5',1145110223,15000,1000,1000,1000,16000);
+
+insert into salary values('2019-5',1145110124,20000,1000,1000,1000,21000);
+
+insert into salary values('2019-5',1145110425,10000,1000,1000,1000,11000);
+
+insert into salary values('2019-5',1145110526,12000,1000,1000,1000,13000);
+
+insert into salary values('2019-5',1145110627,11000,1000,1000,1000,12000);
+
+insert into salary values('2019-5',1145110728,8000,1000,1000,1000,9000);
+
+insert into salary values('2019-5',1145110829,50000,10000,1000,1000,60000);
+
+insert into salary values('2019-5',1145110930,3500,1000,1000,1000,4500);
+
+insert into salary values('2019-5',1145110331,5000,1000,1000,1000,6000);
+
+insert into salary values('2019-5',1145111032,4000,1000,1000,1000,5000);
+
+insert into salary values('2019-5',1145110233,15000,1000,1000,1000,16000);
+
+insert into salary values('2019-5',1145110134,20000,1000,1000,1000,21000);
+
+insert into salary values('2019-5',1145110435,10000,1000,1000,1000,11000);
+
+insert into salary values('2019-5',1145110536,12000,1000,1000,1000,13000);
+
+insert into salary values('2019-5',1145110637,11000,1000,1000,1000,12000);
+
+insert into salary values('2019-5',1145110738,8000,1000,1000,1000,9000);
+
+insert into salary values('2019-5',1145110839,50000,10000,1000,1000,60000);
+
+insert into salary values('2019-5',1145110940,3500,1000,1000,1000,4500);
+
+insert into salary values('2019-5',1145110341,5000,1000,1000,1000,6000);
+
+insert into salary values('2019-5',1145111042,4000,1000,1000,1000,5000);
+
+insert into salary values('2019-5',1145110243,15000,1000,1000,1000,16000);
+
+insert into salary values('2019-5',1145110144,20000,1000,1000,1000,21000);
+
+insert into salary values('2019-5',1145110445,10000,1000,1000,1000,11000);
+
+insert into salary values('2019-5',1145110546,12000,1000,1000,1000,13000);
+
+insert into salary values('2019-5',1145110647,11000,1000,1000,1000,12000);
+
+insert into salary values('2019-5',1145110748,8000,1000,1000,1000,9000);
+
+insert into salary values('2019-5',1145110849,50000,10000,1000,1000,60000);
+
+insert into salary values('2019-5',1145110950,3500,1000,1000,1000,4500);
+
+insert into salary values('2019-5',1145110351,5000,1000,1000,1000,6000);
+
+insert into salary values('2019-5',1145111052,4000,1000,1000,1000,5000);
+
+insert into salary values('2019-5',1145110253,15000,1000,1000,1000,16000);
+
+insert into salary values('2019-5',1145110154,20000,1000,1000,1000,21000);
+
+insert into salary values('2019-5',1145110455,10000,1000,1000,1000,11000);
+
+insert into salary values('2019-5',1145110556,12000,1000,1000,1000,13000);
+
+insert into salary values('2019-5',1145110657,11000,1000,1000,1000,12000);
+
+insert into salary values('2019-5',1145110758,8000,1000,1000,1000,9000);
+
+insert into salary values('2019-5',1145110859,50000,10000,1000,1000,60000);
+
+insert into salary values('2019-5',1145110960,3500,1000,1000,1000,4500);
+
+
+
+insert into atendence values(5,1145110301,0,0,0,0);
+
+insert into atendence values(5,1145111002,1,0,0,0);
+insert into atendence values(5,1145110203,0,0,2,0);
+
+insert into atendence values(5,1145110104,1,1,0,0);
+insert into atendence values(5,1145110405,1,1,1,0);
+
+insert into atendence values(5,1145110506,1,1,1,1);
+
+insert into atendence values(5,1145110607,1,1,0,1);
+
+insert into atendence values(5,1145110708,1,0,0,1);
+
+insert into atendence values(5,1145110809,1,0,1,0);
+
+insert into atendence values(5,1145110910,1,0,1,1);
+
+insert into atendence values(5,1145110311,0,0,0,0);
+
+insert into atendence values(5,1145111012,1,0,0,0);
+insert into atendence values(5,1145110213,0,0,2,0);
+
+insert into atendence values(5,1145110114,1,1,0,0);
+insert into atendence values(5,1145110415,1,1,1,0);
+
+insert into atendence values(5,1145110516,1,1,1,1);
+
+insert into atendence values(5,1145110617,1,1,0,1);
+
+insert into atendence values(5,1145110718,1,0,0,1);
+
+insert into atendence values(5,1145110819,1,0,1,0);
+
+insert into atendence values(5,1145110920,1,0,1,1);
+
+insert into atendence values(5,1145110321,0,0,0,0);
+
+insert into atendence values(5,1145111022,1,0,0,0);
+insert into atendence values(5,1145110223,0,0,2,0);
+
+insert into atendence values(5,1145110124,1,1,0,0);
+insert into atendence values(5,1145110425,1,1,1,0);
+
+insert into atendence values(5,1145110526,1,1,1,1);
+
+insert into atendence values(5,1145110627,1,1,0,1);
+
+insert into atendence values(5,1145110728,1,0,0,1);
+
+insert into atendence values(5,1145110829,1,0,1,0);
+
+insert into atendence values(5,1145110930,1,0,1,1);
+
+insert into atendence values(5,1145110331,0,0,0,0);
+
+insert into atendence values(5,1145111032,1,0,0,0);
+insert into atendence values(5,1145110233,0,0,2,0);
+
+insert into atendence values(5,1145110134,1,1,0,0);
+insert into atendence values(5,1145110435,1,1,1,0);
+
+insert into atendence values(5,1145110536,1,1,1,1);
+
+insert into atendence values(5,1145110637,1,1,0,1);
+
+insert into atendence values(5,1145110738,1,0,0,1);
+
+insert into atendence values(5,1145110839,1,0,1,0);
+
+insert into atendence values(5,1145110940,1,0,1,1);
+
+insert into atendence values(5,1145110341,0,0,0,0);
+
+insert into atendence values(5,1145111042,1,0,0,0);
+insert into atendence values(5,1145110243,0,0,2,0);
+
+insert into atendence values(5,1145110144,1,1,0,0);
+insert into atendence values(5,1145110445,1,1,1,0);
+
+insert into atendence values(5,1145110546,1,1,1,1);
+
+insert into atendence values(5,1145110647,1,1,0,1);
+
+insert into atendence values(5,1145110748,1,0,0,1);
+
+insert into atendence values(5,1145110849,1,0,1,0);
+
+insert into atendence values(5,1145110950,1,0,1,1);
+
+insert into atendence values(5,1145110351,0,0,0,0);
+
+insert into atendence values(5,1145111052,1,0,0,0);
+insert into atendence values(5,1145110253,0,0,2,0);
+
+insert into atendence values(5,1145110154,1,1,0,0);
+insert into atendence values(5,1145110455,1,1,1,0);
+
+insert into atendence values(5,1145110556,1,1,1,1);
+
+insert into atendence values(5,1145110657,1,1,0,1);
+
+insert into atendence values(5,1145110758,1,0,0,1);
+
+insert into atendence values(5,1145110859,1,0,1,0);
+
+insert into atendence values(5,1145110960,1,0,1,1);
+
+
+insert into leave_t values(1,'2019-04-20',1145110301,'Play','2019-04-19','Yes');
+
+insert into leave_t values(2,'2019-03-18',1145111002,'Play','2019-03-17','No');
+
+insert into leave_t values(3,'2019-05-16',1145110203,'Play','2019-04-15','Yes');
+
+insert into leave_t values(4,'2019-02-14',1145110104,'Play','2019-02-13','No');
+
+insert into leave_t values(5,'2019-06-12',1145110405,'Play','2019-06-11','Yes');
+
+insert into leave_t values(6,'2019-01-10',1145110506,'Play','2019-01-09','No');
+
+insert into leave_t values(7,'2019-07-08',1145110607,'Play','2019-07-07','Yes');
+
+insert into leave_t values(8,'2019-12-06',1145110708,'Play','2019-12-05','No');
+
+insert into leave_t values(9,'2019-08-04',1145110809,'Play','2019-08-03','Yes');
+
+insert into leave_t values(10,'2019-11-02',1145110910,'Play','2019-11-01','No');
+
+insert into leave_t values(11,'2019-04-20',1145110311,'Play','2019-04-19','Yes');
+
+insert into leave_t values(12,'2019-03-18',1145111012,'Play','2019-03-17','No');
+
+insert into leave_t values(13,'2019-05-16',1145110213,'Play','2019-04-15','Yes');
+
+insert into leave_t values(14,'2019-02-14',1145110114,'Play','2019-02-13','No');
+
+insert into leave_t values(15,'2019-06-12',1145110415,'Play','2019-06-11','Yes');
+
+insert into leave_t values(16,'2019-01-10',1145110516,'Play','2019-01-09','No');
+
+insert into leave_t values(17,'2019-07-08',1145110617,'Play','2019-07-07','Yes');
+
+insert into leave_t values(18,'2019-12-06',1145110718,'Play','2019-12-05','No');
+
+insert into leave_t values(19,'2019-08-04',1145110819,'Play','2019-08-03','Yes');
+
+insert into leave_t values(20,'2019-11-02',1145110920,'Play','2019-11-01','No');
+
+insert into leave_t values(21,'2019-04-20',1145110321,'Play','2019-04-19','Yes');
+
+insert into leave_t values(22,'2019-03-18',1145111022,'Play','2019-03-17','No');
+
+insert into leave_t values(23,'2019-05-16',1145110233,'Play','2019-04-15','Yes');
+
+insert into leave_t values(24,'2019-02-14',1145110124,'Play','2019-02-13','No');
+
+insert into leave_t values(25,'2019-06-12',1145110425,'Play','2019-06-11','Yes');
+
+insert into leave_t values(26,'2019-01-10',1145110556,'Play','2019-01-09','No');
+
+insert into leave_t values(27,'2019-07-08',1145110647,'Play','2019-07-07','Yes');
+
+insert into leave_t values(28,'2019-12-06',1145110748,'Play','2019-12-05','No');
+
+insert into leave_t values(29,'2019-08-04',1145110859,'Play','2019-08-03','Yes');
+
+insert into leave_t values(30,'2019-11-02',1145110930,'Play','2019-11-01','No');
+
+

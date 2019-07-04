@@ -1,0 +1,46 @@
+create table department(dep_number int primary key,
+                        dep_name varchar(20));
+create table information(emp_number int primary key,
+                    empname varchar(20),
+                    emp_sex varchar(2),
+                    emp_birth varchar(20),
+                    emp_card varchar(18),
+                    emp_birthplace varchar(50),
+                    emp_phone varchar(11),
+                    emp_address varchar(50),
+                    dep_number int,
+                    dep_age smallint,
+                    foreign key(dep_number) references department(dep_number) on delete cascade);
+create table salary(pay_month varchar(10),
+                    emp_number int,
+                    pay_number double,
+                    pay_prize double,
+                    pay_overtime double,
+                    pay_absence double,
+                    pay_money double,
+                    primary key(pay_month,emp_number),
+                    foreign key(emp_number) references information(emp_number) on delete cascade);
+
+create table atendence(att_month int,
+                        emp_number int,
+                        att_number int,
+                        leave_number int,
+                        abs_number int,
+                        late_number int,
+                        primary key(att_month,emp_number),
+                        foreign key(emp_number) references information(emp_number) on delete cascade);
+create table leave_t(leave_number int primary key,
+                    leave_date varchar(20),
+                    emp_number int,
+                    leave_reason varchar(50),
+                    req_date varchar(20),
+                    leave_approve varchar(5),
+                    foreign key(emp_number) references information(emp_number)
+on delete cascade);
+
+create table user(
+	`id` int PRIMARY KEY,
+	`username` varchar(20) not NULL,
+	`password` varchar(20) not null,
+	`privilege` int
+)
