@@ -1,33 +1,17 @@
 # staff-system
 
 ## Project setup
-```
-npm install
-```
+1.把node-server文件夹下的建表和插入数据的sql语句在自己的mysql中执行<br>
+2.修改node-server文件夹下的const.js中的相关信息:dbUser和dbPwd改为自己要连接的数据库名和密码<br>
+3.下载前端文件，修改.env.development（开发环境下的环境变量）中的`VUE_APP_BASE_URL`改为自己的node服务监听的IP和端口<br>
+4.`npm run serve`启动服务<br>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Notice
+因为这个项目中很多地方的代码都可以复用，因此稍微将代码优化了一下，当你在某个组件中或样式中发现貌似少了点什么的时候可以去以下两个文件中寻找
+- utils文件夹：封装一些常量以及做mixin混入
+- global.scss：@mixin样式
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
+如果你想更好地了解vue项目的搭建过程，可以看下这里https://github.com/ChenMingK/epub-Proj
 ### 页面展示
 <img src="https://github.com/ChenMingK/ImagesStore/blob/master/imgs/staffSystem.png">
 
@@ -82,6 +66,20 @@ showEditComponent() {
 </div>
 ```
 ## vue-create-api使用技巧（如何进行组件通信以及销毁的注意事项）
+```js
+this.formComponent = this.$createForm({
+  $props: {
+    inputList: GATE_FORM,
+    tableName: 'atendence'
+  },
+  $events: {
+    submit: this.flushData, // 使用flushData方法作为子组件submit事件的回调
+    hide: this.hideForm // 点击取消时删除组件
+  }
+}).show()
+```
+这段代码利用vue-create-api创建了一个全局组件，$events选项可以设置响应子组件事件的回调，比如我创建一个全局的表单组件，用户往里面填写了数据后点击提交触发`$emit('submit', args)`，那么这个父组件就能响应这个事件。这样就可以方便地进行组件通信了。
+
 
 ## 动态组件切换及过渡效果
 左侧tab的实现本来应该用前端路由来实现的，即点击不同的tab切换不同的路由视图；这里使用的是动态组件的方式，即切换不同的tab就切换main部分（右侧）的组件，好处是我们如果想实现过渡效果，比如淡入淡出，只需要在外层添加transition即可。
