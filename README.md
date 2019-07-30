@@ -11,18 +11,18 @@
 
 or 直接将 `.env.development` 中的环境变量修改为 `.env.production` 中的，然后 `npm run serve` 启动服务，那么你使用的就是我的服务器提供的后台 API
 
-### Notice
-:warning:服务端的 node.js 代码中有一个明显的问题：显然对每个请求都要重新建立一次数据库连接是十分耗费资源的，这里懒得改了注意下就好......
+## :warning: Notice
+服务端的 node.js 代码中有一个明显的问题：显然对每个请求都要重新建立一次数据库连接是十分耗费资源的，这里懒得改了注意下就好......
 
 因为这个项目中很多地方的代码都可以复用，因此稍微将代码优化了一下，当你在某个组件中或样式中发现貌似少了点什么的时候可以去以下两个文件中寻找
 - utils 文件夹：封装一些常量以及做 mixin 混入
 - global.scss：@mixin 样式
 
 如果你想更好地了解 vue 项目的搭建过程，可以看下这里https://github.com/ChenMingK/epub-Proj
-### 页面展示
+## 页面展示
 <img src="https://github.com/ChenMingK/ImagesStore/blob/master/imgs/staffSystem.png">
 
-### 体验地址
+## 体验地址
 <a href="http://cmk1018.cn/works/">传送门</a>
 
 # 前端开发记录
@@ -55,7 +55,7 @@ showEditComponent() {
   }
 }
 ```
-## v-for循环对象
+## v-for 循环对象
 需求分析：创建表单时，需要知道哪些信息需要编辑，对于添加一条记录来说只需要员工信息的 key，对于编辑一条记录而言不仅需要 key，还需要 value（即已有的值）；显然我们需要传一个对象给表单组件，一般用 v-for 来遍历数组，那么 v-for 能不能遍历对象呢？当然可以。
 
 ```html
