@@ -20,7 +20,7 @@ or 直接将 `.env.development` 中的环境变量修改为 `.env.production` �
 
 如果你想更好地了解 vue 项目的搭建过程，可以看下这里https://github.com/ChenMingK/epub-Proj
 ## 页面展示
-<img src="https://github.com/ChenMingK/ImagesStore/blob/master/imgs/staffSystem.png">
+<img src="https://github.com/ChenMingK/ImagesStore/blob/master/imgs/staffsystemshow.gif" />
 
 ## 体验地址
 <a href="http://cmk1018.cn/works/">传送门</a>
